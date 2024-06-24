@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Card</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            margin: 0;
+        }
+        .card {
+            background-color: #fff;
+            border: 2px solid #ff69b4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .header {
+            font-size: 24px;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 16px;
+            color: #888;
+        }
+        .hearts {
+            font-size: 30px;
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            Happy Birthday, Mom!
+        </div>
+        <div class="content">
+            Wishing you a day filled with love, joy, and all your favorite things. You mean the world to me, and I am so grateful for everything you do.
+        </div>
+        <div class="hearts">
+            ❤️❤️❤️
+        </div>
+        <div class="footer">
+            With love, <br> Your loving child
+        </div>
+    </div>
+</body>
+</html>
